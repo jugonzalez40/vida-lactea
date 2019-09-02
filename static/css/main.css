@@ -26,14 +26,14 @@ header {
 
 .slidebar {
     overflow: hidden;
-    height: 700px;
+    height: 800px;
 }
 
 .slide-item {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 800px;
     width: 100%;
 }
 
@@ -93,13 +93,12 @@ padding-top: 35px;
 
 
 
-.navbar .navbar-menu .navbar-start  > .navbar-item, .title{
+.navbar .navbar-menu .navbar-end  > .navbar-item, .title{
     /* font-family: 'Capriola', sans-serif ; */
-    font-family: 'Nunito', sans-serif ;
-
+    /* font-family: 'Nunito', sans-serif ; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
-
-
 
 .slider-container {
     height: 100%;
@@ -120,18 +119,23 @@ padding-top: 35px;
 }
 
 
-.navbar .navbar-menu .navbar-start  > .navbar-item{
-    color: white;
-    
-    -webkit-transition: background-color 0.5s;
-    -moz-transition: background-color 0.5s;
-    -o-transition: background-color 0.5s;
-    transition: background-color 0.5s;
+.navbar .navbar-menu .navbar-end  > .navbar-item{     
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+
 }
 
 
-.navbar .navbar-menu .navbar-start  > .navbar-item.active{
-    background-color: #0077c2;
+.navbar .navbar-menu .navbar-end  > .navbar-item.active{
+    border-bottom: #f06292 3px solid;
+}
+
+.navbar .navbar-menu .navbar-end > .navbar-item:hover{
+    background-color: #fafafa;
+    color: #4a4a4a;
 }
 
 
@@ -153,6 +157,16 @@ padding-top: 35px;
     font-size: 25px;
 }
 
+.navbar-item img {
+    max-height: none;
+}
+
+
+.navbar {
+    /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+    border-bottom: #dddddd 0.7px solid;
+    z-index: 100;
+}
 
 
 /* //#fafafa !important */

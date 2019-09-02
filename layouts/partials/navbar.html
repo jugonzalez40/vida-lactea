@@ -1,38 +1,17 @@
 {{- with .Site.Params.navbar }}
-
-<div class="top container">
-  <div class="columns is-tablet">
-    <div class="column is-4 logo-container">
-      {{- with .logo }}
-      <img src="{{ relURL .path }}" alt="{{ .alt }}" width="300">
-      {{- end }}
-    </div>
-    <div class="column is-4 is-offset-4">
-      <div class="columns is-mobile">
-        <div class="column is-2">
-          <div class="columns">
-            <div class="column time-container">
-              {{- with .time }}
-              <img src="{{ relURL .path }}" alt="{{ .alt }}" width="50">
-              {{- end }}
-            </div>
-          </div>
-        </div>
-        <div class="column is-10 schedule-container">
-          {{- with .schedule }}
-          <p> <strong>{{.title}}</strong></p>
-            <p> {{.range}}</p>
-            <a href="tel:{{.phone}}">+{{.phone}}</a>
-            {{- end }}
-        </div>
-      </div>
-    </div>
+<!-- <div class="top-banner hero is-primary">
+  <div class="container">
+    Horario bla bla 
   </div>
-</div>
-
-<nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+</div> -->
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
+      <a class="navbar-item" href="#home">
+        {{- with .logo }}
+        <img src="{{ relURL .path }}" alt="{{ .alt }}" width="275">
+        {{- end }}
+      </a>
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-id">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -40,9 +19,9 @@
       </a>
     </div>
     <div id="navbar-id" class="navbar-menu p-padding">
-      <div class="navbar-start">
+      <div class="navbar-end">
         {{- range .menu }}
-        <a class="navbar-item" href="{{.link}}"> {{ .text }} </a>
+          <a class="navbar-item" href="{{.link}}"> {{ .text }}</a>
         {{- end}}
       </div>
     </div>

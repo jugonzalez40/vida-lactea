@@ -6,7 +6,7 @@ new Glide('.glide').mount()
 
 //Scrol 
 
-$(document).scroll(() => refixNavbar());
+//$(document).scroll(() => refixNavbar());
 
 
 function refixNavbar () {
