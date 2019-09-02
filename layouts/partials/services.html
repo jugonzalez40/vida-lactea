@@ -1,0 +1,38 @@
+<img class="divider" src="{{relURL "/images/divider.svg"}}" alt="">
+
+<section class="hero" id="services">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                SERVICIOS Y PRODUCTOS
+            </h1>
+            <h2 class="subtitle">
+                Hero subtitle
+            </h2>
+
+            <div class="columns is-multiline">
+
+                {{- range .Site.Params.services }}
+                <div class="column is-4">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                {{.name}}
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                               {{.text}}
+                            </div>
+                        </div>
+                        <footer class="card-footer">                            
+                            <a href="{{.moreInfoLink}}" class="card-footer-item">Mas Info...</a>
+                        </footer>
+                    </div>
+                </div>
+                {{- end}}
+            </div>
+
+        </div>
+    </div>
+</section>

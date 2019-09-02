@@ -1,0 +1,68 @@
+{
+  "languageCode": "es",
+  "params": {
+    "description": "",
+    "custom_stylesheets": [],
+    "custom_scripts": [],
+    "navbar": {
+      "logo": {
+        "path": "images/logo.png",
+        "alt": "ajsdasd"
+      },
+      "time": {
+        "path": "images/clock.svg",
+        "alt": "ajsdasd"
+      },
+      "menu": [{
+        "link": "#who",
+        "text": "QUIÉNES SOMOS?"
+      },{
+        "link": "#services",
+        "text": "SERVICIOS"
+      },{
+        "link": "#contact",
+        "text": "CONTACTENOS"
+      },{
+        "link": "#blog",
+        "text": "BLOG"
+      }],
+      "schedule": {
+        "title": "Horario de Atención",
+        "range": "Lun - Sab 07:00am - 08:00pm",
+        "phone": "57 310 294 65 71"
+      }
+    },
+    "header": {
+      "sliderImages": [{
+        "title": "Titlo",
+        "subtitle": "Subtitulo",
+        "text": "Texto"
+      }]
+    },
+    "services": [{
+      "name": "En Mi Embarazo",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a reprehenderit voluptatibus. Nam, dolore. Officia, labore iusto, possimus modi",
+      "moreInfoLink": "/blabla"
+    }, {
+      "name": "En Mi Lactáncia",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a reprehenderit voluptatibus. Nam, dolore. Officia, labore iusto, possimus modi",
+      "moreInfoLink": "/blabla"
+    }, {
+      "name": "Talleres Grupales",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a reprehenderit voluptatibus. Nam, dolore. Officia, labore iusto, possimus modi",
+      "moreInfoLink": "/blabla"
+    }, {
+      "name": "aasdmas",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a reprehenderit voluptatibus. Nam, dolore. Officia, labore iusto, possimus modi",
+      "moreInfoLink": "/blabla"
+    }, {
+      "name": "aasdmas",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a reprehenderit voluptatibus. Nam, dolore. Officia, labore iusto, possimus modi",
+      "moreInfoLink": "/blabla"
+    }, {
+      "name": "aasdmas",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a reprehenderit voluptatibus. Nam, dolore. Officia, labore iusto, possimus modi",
+      "moreInfoLink": "/blabla"
+    }]
+  }
+}

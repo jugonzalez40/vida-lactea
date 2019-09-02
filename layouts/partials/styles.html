@@ -1,0 +1,24 @@
+<!-- Fonts -->
+
+<link href="https://fonts.googleapis.com/css?family=Capriola|Open+Sans|Montserrat|Nunito&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+
+
+<!-- BULMA -->
+<link rel="stylesheet" type="text/css" href="{{ relURL "css/bulma.css" }}">
+
+<!-- GILDE SLIDER -->
+<link rel="stylesheet" type="text/css" href="{{ relURL "css/glide.core.min.css" }}">
+<link rel="stylesheet" type="text/css" href="{{ relURL "css/glide.theme.min.css" }}">
+
+<!-- MAIN -->
+<link rel="stylesheet" type="text/css" href="{{ relURL "css/main.css" }}">
+
+
+
+<!-- CUSTOM-->
+{{- range .Site.Params.custom_stylesheets -}}
+<link rel="stylesheet" type="text/css" href="{{ relURL . }}">
+{{- end -}}
+

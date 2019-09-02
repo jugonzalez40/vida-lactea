@@ -1,0 +1,17 @@
+<!-- Js -->
+<script src="{{ relURL "js/jquery.min.js" }}"></script>
+<script src="{{ relURL "js/modernizr-2.6.2.min.js" }}"></script>
+
+
+<script src="{{ relURL "js/glide.min.js" }}"></script>
+
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+<script src="{{ relURL "js/main.js" }}"></script>
+
+
+<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+
+{{- range .Site.Params.custom_scripts }}
+<script src="{{ relURL . }}"></script>
+{{- end -}}
