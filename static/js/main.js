@@ -1,28 +1,14 @@
-new Glide('.glide').mount()
-
-
-
-
-
-//Scrol 
-
-$(document).scroll(() => refixNavbar());
-
-
-function refixNavbar () {
-    if(window.pageYOffset >= 1){
-        $(".navbar").addClass("down");
-    } else {
-        $(".navbar").removeClass("down");
-    }
-}
-
-
-
-$(function(){
-    refixNavbar();
-    $(".navbar-item").click((event)=> {
-        $('.navbar-item').removeClass('active');
+$(function () {
+    
+    // Navbar active
+    $(".navbar-item").click((event) => {
+        $('.navbar-item, .navbar-link').removeClass('active');
         $(event.target).addClass('active');
     });
+
+    //Active glide
+    new Glide('.glide', { autoplay: 5000}).mount()
+    new Glide('.glide-testimony', { autoplay: 5000}).mount()
+    //Active Scroll Animations
+    AOS.init();
 });

@@ -18,7 +18,11 @@
         "text": "SOBRE NOSOTROS"
       },{
         "link": "#services",
-        "text": "SERVICIOS"
+        "text": "SERVICIOS",
+        "services": [
+          "EN MI EMBARAZO",
+          "EN MI EMBARAZO2"
+        ]
       },{
         "link": "#contact",
         "text": "CONTACTENOS"
@@ -28,8 +32,8 @@
       }],
       "schedule": {
         "title": "Horario de Atención",
-        "range": "Lun - Sab 07:00am - 08:00pm",
-        "phone": "57 310 294 65 71"
+        "range": "LUN - SAB 07:00 AM - 08:00 PM",
+        "phone": " +57 310 294 65 71"
       }
     },
     "header": {
@@ -63,6 +67,12 @@
       "name": "aasdmas",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a reprehenderit voluptatibus. Nam, dolore. Officia, labore iusto, possimus modi",
       "moreInfoLink": "/blabla"
-    }]
+    }],
+    "testimonies": [
+      "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhojas.secas%2Fposts%2F10156119686452197&width=500",
+      "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcarolina.sotomendez%2Fposts%2F10156148561628549&width=500",
+      "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D473853919790438%26id%3D100014975021699&width=500",
+      "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjaime.r.sanchez.14%2Fposts%2F10216784913033343&width=500"
+    ]
   }
 }

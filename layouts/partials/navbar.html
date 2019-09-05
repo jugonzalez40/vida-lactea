@@ -1,44 +1,16 @@
 {{- with .Site.Params.navbar }}
-<div class="top-banner is-hidden-mobile">
+<div class="top-banner">
   <div class="container">
-    <div class="columns">
-      <div class="column is-2 social">
-        <!-- Redes sociales-->
-        <a href="">
-          <i class="fab fa-instagram icon-banner social"></i>
-        </a>
-
-        <a href="">
-          <i class="fab fa-facebook-f icon-banner social"></i>
-        </a>
-
-        <a href="">
-          <i class="fab fa-twitter icon-banner social"></i>
-        </a>
-      </div>
-      <div class="column is-5 is-offset-5">
-        <div class="columns info-container">
-          {{- with .schedule }}
-          <div class="column is-4 is-offset-2">
-            <i class="fas fa-phone icon-banner"></i>
-            <span class="item-banner">
-              <strong>
-                <a href="tel:+{{.phone}}">{{.phone}}</a>
-              </strong>
-            </span>
-          </div>
-          <div class="column is-6">
-            <i class="far fa-calendar-alt icon-banner"></i>
-            <span class="item-banner">
-              <strong>
-                {{.range}}
-              </strong>
-            </span>
-          </div>
-          {{- end}}
-        </div>
-      </div>
-    </div>
+    {{- with .schedule }}
+    <i class="fab fa-whatsapp"></i>
+    <span class="item-banner">
+      {{.phone}}
+    </span>
+    <i class="far fa-calendar-alt icon-banner"></i>
+    <span class="item-banner">
+      {{.range}}
+    </span>
+    {{- end}}
   </div>
 </div>
 
@@ -47,7 +19,7 @@
     <div class="navbar-brand">
       <a class="navbar-item" href="#home">
         {{- with .logo }}
-        <img src="{{ relURL .path }}" alt="{{ .alt }}" width="275">
+        <img src="{{ relURL .path }}" alt="{{ .alt }}" width="250">
         {{- end }}
       </a>
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-id">
@@ -57,10 +29,46 @@
       </a>
     </div>
     <div id="navbar-id" class="navbar-menu p-padding">
-      <div class="navbar-end">
+      <div class="navbar-start">
         {{- range .menu }}
+        {{ if ne .text "SERVICIOS" }}
         <a class="navbar-item" href="{{.link}}"> {{ .text }}</a>
         {{- end}}
+        {{ if eq .text "SERVICIOS" }}
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="{{.link}}">
+            {{.text}}
+          </a>
+
+          <div class="navbar-dropdown">
+            {{- range .services }}
+            <a class="navbar-item">
+              {{.}}
+            </a>
+            {{- end}}
+          </div>
+        </div>
+        {{- end }}
+        {{- end}}
+
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <a>
+            <i class="fab fa-instagram icon-social"></i>
+          </a>
+        </div>
+        <div class="navbar-item">
+          <a href="">
+            <i class="fab fa-facebook-f icon-social"></i>
+          </a>
+        </div>
+        <div class="navbar-item">
+          <a href="">
+            <i class="fab fa-twitter icon-social"></i>
+          </a>
+        </div>
       </div>
     </div>
   </div>

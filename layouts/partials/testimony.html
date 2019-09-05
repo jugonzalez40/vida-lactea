@@ -1,0 +1,35 @@
+<section id="testimony">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-half is-center-text">
+                <div class="title">TESTIMONIOS</div>
+                <hr class="title-divider">
+                <div class="glide-testimony">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            {{- range .Site.Params.testimonies}}
+                            <li class="glide__slide">
+                                <iframe class="is-face-frame"
+                                src="{{.}}"
+                                width="500" scrolling="no" frameborder="0" allowTransparency="true"
+                                allow="encrypted-media"></iframe>
+                            </li>
+                            {{- end}}
+                        </ul>
+                    </div>
+
+                    <div class="glide__arrows is-hidden-mobile" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                            <i class="fas fa-chevron-left slider-arrow"></i>
+                        </button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                            <i class="fas fa-chevron-right slider-arrow"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  -->
