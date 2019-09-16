@@ -14,20 +14,16 @@
         "alt": "ajsdasd"
       },
       "menu": [{
-        "link": "#who",
+        "link": "/#who",
         "text": "SOBRE NOSOTROS"
       },{
-        "link": "#services",
-        "text": "SERVICIOS",
-        "services": [
-          "EN MI EMBARAZO",
-          "EN MI EMBARAZO2"
-        ]
+        "link": "/#services",
+        "text": "SERVICIOS"
       },{
-        "link": "#contact",
+        "link": "/#contact",
         "text": "CONTACTENOS"
       },{
-        "link": "#blog",
+        "link": "/blog",
         "text": "BLOG"
       }],
       "schedule": {

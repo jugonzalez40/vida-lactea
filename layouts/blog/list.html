@@ -1,0 +1,10 @@
+{{define "main"}}
+    {{ $pages := .Site.RegularPages  }}
+    <ul>
+
+        {{ range where $pages "Section" "blog" }}
+        <li>{{.Title}}</li>
+        {{end}}
+    </ul>
+  {{ .Content }}
+{{end}}

@@ -3,25 +3,19 @@
 
 <head>
   {{- partial "meta.html" . }}
-
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
   {{- partial "styles.html" . }}
+
+  {{ block "header" . }}
+  {{ end }}
 </head>
 
 <body id="body">
-
   {{- partial "navbar.html" . }}
-  {{- partial "header.html" . }}
-
-  {{- partial "who.html" . }}
-  {{- partial "services.html" . }}
-  {{- partial "testimony.html" . }}
-  {{- partial "contactus.html" . }}
-
-
+  {{ block "main" . }}
+  {{ end }}
+  {{ .Content }}
   {{- partial "footer.html" . }}
   {{- partial "scripts.html" . }}
 </body>
-
 </html>

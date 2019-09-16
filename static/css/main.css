@@ -15,6 +15,10 @@ body {
     padding:0 1.5rem;
 }
 
+.m-margin {
+    margin:0 1.5rem;
+}
+
 .header-text {
     padding: 1.5rem;
     text-align: justify;
@@ -28,7 +32,6 @@ header {
 .slidebar {
     overflow: hidden;
     height: 700px;
-    margin-top: 122px;
 }
 
 .top-banner {
@@ -133,27 +136,32 @@ padding-top: 35px;
 }
 
 
-.navbar .navbar-menu .navbar-start  > .navbar-item,
-.navbar .navbar-menu .navbar-start  .navbar-item > .navbar-link{     
+.navbar .navbar-menu .navbar-start  > .navbar-item{     
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
     color: rgba(0,0,0,.8);
+    border-bottom: #56c7d6 5px solid;
+    background-color: #0096a5;
+    
     
 }
-
+.navbar .navbar-menu .navbar-start  > .navbar-item,
+.navbar-link{
+    color: white;
+}
 
 .navbar .navbar-menu .navbar-start  > .navbar-item.active,
 .navbar .navbar-menu .navbar-start  .navbar-item > .navbar-link.active{
-    border-bottom: #147298 3px solid;
-    color: #147298;
+    background-color: #006876;
+    color: white;
 }
 
 .navbar .navbar-menu .navbar-start > .navbar-item:hover,
 .navbar .navbar-menu .navbar-start  .navbar-item > .navbar-link:hover{
-    background-color: #fafafa;
-    color: #147298;
+    background-color: #006876;
+    color: white;
 }
 
 
@@ -193,8 +201,8 @@ padding-top: 35px;
 }
 
 .title-divider{
-    background-color: #147298;
-    /* 147298 */
+    background-color: #0096a5;
+    /* 0096a5 */
 }
 
 
@@ -308,3 +316,12 @@ padding-top: 35px;
   .is-face-frame {
     height: 250px;
   }
+
+.nav-shell {
+    padding-top: 123px;
+}
+
+.nav-text {
+    /* min-width: 200px; */
+}
+
