@@ -32,38 +32,7 @@
         "phone": " +57 310 294 65 71"
       }
     },
-    "header": {
-      "sliderImages": [{
-        "title": "Titlo",
-        "subtitle": "Subtitulo",
-        "text": "Texto"
-      }]
-    },
-    "services": [{
-      "name": "En Mi Embarazo",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a reprehenderit voluptatibus. Nam, dolore. Officia, labore iusto, possimus modi",
-      "moreInfoLink": "/blabla"
-    }, {
-      "name": "En Mi Lactáncia",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a reprehenderit voluptatibus. Nam, dolore. Officia, labore iusto, possimus modi",
-      "moreInfoLink": "/blabla"
-    }, {
-      "name": "Talleres Grupales",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a reprehenderit voluptatibus. Nam, dolore. Officia, labore iusto, possimus modi",
-      "moreInfoLink": "/blabla"
-    }, {
-      "name": "aasdmas",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a reprehenderit voluptatibus. Nam, dolore. Officia, labore iusto, possimus modi",
-      "moreInfoLink": "/blabla"
-    }, {
-      "name": "aasdmas",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a reprehenderit voluptatibus. Nam, dolore. Officia, labore iusto, possimus modi",
-      "moreInfoLink": "/blabla"
-    }, {
-      "name": "aasdmas",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a reprehenderit voluptatibus. Nam, dolore. Officia, labore iusto, possimus modi",
-      "moreInfoLink": "/blabla"
-    }],
+
     "testimonies": [
       "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhojas.secas%2Fposts%2F10156119686452197&width=500",
       "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcarolina.sotomendez%2Fposts%2F10156148561628549&width=500",

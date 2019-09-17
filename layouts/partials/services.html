@@ -1,3 +1,4 @@
+{{ $pages := .Site.RegularPages }}
 <img class="divider" src="{{relURL "/images/divider.svg"}}" alt="">
 
 <section class="hero" id="services">
@@ -13,7 +14,7 @@
             </div>
 
             <div class="columns is-multiline">
-                {{- range .Site.Params.services }}
+                {{ range where $pages "Section" "services" }}
                 <div class="column is-4">
                     <div class="card">
                         <div class="card-image">
@@ -23,16 +24,16 @@
                         </div>
                         <header class="card-header">
                             <p class="card-header-title">
-                                {{.name}}
+                                {{.Title}}
                             </p>
                         </header>
                         <div class="card-content">
                             <div class="content">
-                                {{.text}}
+                                {{.Description}}
                             </div>
                         </div>
                         <footer class="card-footer">
-                            <a href="{{.moreInfoLink}}" class="card-footer-item">Mas Info...</a>
+                            <a href="{{ .RelPermalink }}" class="card-footer-item">Mas Info...</a>
                         </footer>
                     </div>
                 </div>
