@@ -337,3 +337,7 @@ dark => 007c91
 .navbar .navbar-item.has-dropdown .navbar-dropdown {
     border-radius: 0;
 }
+
+.navbar-brand {
+    align-items: center;
+}
