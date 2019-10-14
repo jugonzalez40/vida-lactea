@@ -1,7 +1,7 @@
 {{ $pages := .Site.RegularPages }}
 <div class="nav-shell">
 
-    <div class="top-banner">
+    <!-- <div class="top-banner">
         <div class="container">
             {{with .Site.Params.navbar.schedule }}
             <i class="fab fa-whatsapp"></i>
@@ -13,9 +13,9 @@
                 {{.range}}
             </span> {{- end}}
         </div>
-    </div>
+    </div> -->
 
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" data-aos-duration="700" data-aos="fade-down">
         <div class="container">
             <div class="navbar-brand">
                 <a class="navbar-item" href="/">
@@ -23,7 +23,8 @@
                     <img src="{{ relURL .path }}" alt="{{ .alt }}" width="250">
                     {{ end }}
                 </a>
-                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-id">
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbar-id">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -33,9 +34,9 @@
                 <div class="navbar-start">
                     {{ range .Site.Params.navbar.menu }} {{ if ne .text "SERVICIOS" }}
                     <a class="navbar-item" href="{{.link}}">
-                        
-                            {{ .text }}
-                        
+
+                        {{ .text }}
+
                     </a>
                     {{ end}} {{ if eq .text "SERVICIOS" }}
                     <div class="navbar-item has-dropdown is-hoverable">

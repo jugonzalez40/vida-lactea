@@ -19,7 +19,6 @@
   {{- partial "scripts.html" . }}
 
   <script>
-    console.log(window.netlifyIdentity)
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
         if (!user) {

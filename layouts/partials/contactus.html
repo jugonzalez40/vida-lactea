@@ -1,59 +1,73 @@
-<section class="hero" id="contact">
+<section class="hero section" id="contact">
     <div class="hero-body">
         <div class="container">
             <div class="columns">
-                <div class="column is-6">
+                <div class="column is-6
+                ">
                     <h1 class="title">
                         CONTACTANOS
                     </h1>
-                    <hr class="title-divider">
+                    <p clasS="subtitle">
+                            Estamos aquí para responder cualquier pregunta que pueda tener sobre nuestra experiencia de vida lactea. Comuníquese con nosotros y le responderemos tan pronto como podamos.
+                    </p>
+
+                    <div class="content">
+                        <form action="https://getform.io/f/b583295b-3c06-48a2-b3c6-bad9db608300" method="POST"
+                            accept-charset="UTF-8">
+                            <div class="columns">
+                                <div class="column is-">
+
+                                    <div class="field">
+                                        <label for="name" class="label">Nombres </label>
+                                        <input class="v-input" type="text" name="name" placeholder="María..." required>
+                                    </div>
+                                </div>
+                                <div class="column is-6">
+                                    <div class="field">
+                                        <label for="name" class="label">Apellidos </label>
+                                        <input class="v-input" type="text" name="name" placeholder="Rodriguez..."
+                                            required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="columns">
+                                <div class="column">
+                                    <div class="field">
+                                        <label for="name" class="label">Correo </label>
+                                        <input class="v-input" type="email" name="name" placeholder="example@gmail.com"
+                                            required>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="field">
+                                <label class="label">Mensaje</label>
+                                <div class="control">
+                                    <textarea name="message"></textarea>
+                                </div>
+                            </div>
+                            <div class="field">
+                                
+                                    <button type="submit" class="v-button">Enviar</button>
+                                
+                            </div>
+                        </form>
+
+                    </div>
+
                 </div>
-            </div>
 
-            <div class="columns">
-                <div class="column is-6">
-                    <br>
-                    <form action="https://getform.io/f/b583295b-3c06-48a2-b3c6-bad9db608300" method="POST"
-                        accept-charset="UTF-8">
-
-                        <div class="field">
-                            <label class="label">Nombre</label>
-                            <div class="control">
-                                <input class="input" type="text" name="fullname" required>
-                            </div>
-                        </div>
-
-                        <div class="field">
-                            <label class="label">Correo</label>
-                            <div class="control has-icons-left has-icons-right">
-                                <input class="input" name="email" type="email" required>
-                                <span class="icon is-small is-left">
-                                    <i class="fas fa-envelope"></i>
-                                </span>
-                                <span class="icon is-small is-right">
-                                    <i class="fas fa-exclamation-triangle"></i>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="field">
-                            <label class="label">Mensaje</label>
-                            <div class="control">
-                                <textarea name="message" class="textarea" placeholder="Textarea"></textarea>
-                            </div>
-                        </div>
-                        <div class="field is-grouped">
-                            <div class="control">
-                                <button type="submit" class="button is-link">Enviar</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-                <div class="column is-4 is-offset-2">
-                    <img src="{{relURL "/images/contact.svg"}}" alt="">
+                <div class="column is-5 is-offset-1">
+                    <img src="{{relURL "/images/contact.png"}}" alt="">
                 </div>
             </div>
 
         </div>
     </div>
+
+
+
+
 </section>
