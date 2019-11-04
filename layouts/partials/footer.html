@@ -1,9 +1,66 @@
+{{ $menuPages := .Site.Params.navbar.menu }}
+{{ $contactInfo := $.Site.Params.contact }}
 <footer class="footer">
   <div class="container">
-
     <div class="columns">
-      <div class="column is-6">BBA</div>
-      <div class="column is-6">BBHA</div>
+      <!-- TITULO y REDES -->
+      <div class="column">
+        <h2 class="footer-title title is-3">Vida Láctea</h2>
+        <p class="footer-text"> Vida láctea, hace reconocimiento a esta historia, ya no solo es una "vía", sino toda una
+          "Vida"</p>
+        <br>
+        <div class="columns is-mobile">
+          <div class="column is-1">
+            <a href="">
+              <i class="fab fa-instagram icon-social-f"></i>
+            </a>
+          </div>
+          <div class="column is-1">
+            <a href="">
+              <i class="fab fa-facebook-f icon-social-f"></i>
+            </a>
+          </div>
+          <div class="column is-1">
+            <a href="">
+              <i class="fab fa-twitter icon-social-f"></i>
+            </a>
+
+          </div>
+        </div>
+      </div>
+      <!-- ENLACES -->
+      <div class="column">
+        <h2 class="footer-title title is-4">Enlaces</h2>
+        <ul>
+          {{ range $menuPages }}
+          <li>
+            <a class="footer-text" href="{{.link}}">
+              {{ .text }}
+            </a>
+          </li>
+          {{ end}}
+        </ul>
+      </div>
+      <!-- Información de contacto  -->
+      <div class="column">
+        <h2 class="footer-title title is-4">Contacto</h2>
+        <ul>
+
+          <li> <span class="footer-text"> {{ $contactInfo.title }} </span> </li>
+          <li> <span class="footer-text"> {{ $contactInfo.range }} </span> </li>
+          <li> <span class="footer-text"> {{ $contactInfo.phone }} </span> </li>
+          <li> <span class="footer-text"> {{ $contactInfo.mail }} </span> </li>
+          
+
+        </ul>
+      </div>
+    </div>
+  <hr class="footer-divider">
+    <div class="columns">
+      <div class="column">
+          <small class="footer-text">&copy; Copyright 2019, Vida Lactea. Todos los derechos reservados</small>
+      </div>
+        
     </div>
   </div>
 </footer>

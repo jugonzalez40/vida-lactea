@@ -22,7 +22,10 @@ $(() => {
     // new Glide('.glide', { autoplay: 5000 }).mount()
     // new Glide('.glide-testimony', { autoplay: 5000 }).mount()
     //Active Scroll Animations
-    AOS.init();
+    
+    AOS.init({
+        once: true
+    });
 
     const burger = document.querySelector('.burger');
     const nav = document.querySelector(`#${burger.dataset.target}`);

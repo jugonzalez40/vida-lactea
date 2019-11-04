@@ -5,39 +5,51 @@
     <div class="hero-body">
         <div class="container">
             <div class="columns">
-                <div class="column is-5">
-                    <h1 class="title">
-                        PRODUCTOS & SERVICIOS
+                <div class="column is-8" data-aos="fade-down" data-aos-duration="700">
+                    <h1 class="title is-spaced">
+                        Servicios
                     </h1>
-                    <hr class="title-divider">
+                    <p class="subtitle is-spaced">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                        eligendi? Animi deserunt totam fugit consequatur id nemo molestias, officiis, eum explicabo
+                        cupiditate iusto libero corrupti voluptatem expedita quia nulla earum?</p>
                 </div>
             </div>
 
-            <div class="columns is-multiline">
+            <!-- MAISDJ-->
+            <div class="columns">
                 {{ range where $pages "Section" "services" }}
-                <div class="column is-4">
+                <div class="column is-3" data-aos="fade-left" data-aos-duration="700">
+
                     <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <header class="card-header">
-                            <p class="card-header-title">
-                                {{.Title}}
-                            </p>
-                        </header>
                         <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-48x48">
+                                        <img src="{{relURL .Params.icon}}" />
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-5">{{.Title}}</p>
+
+                                </div>
+                            </div>
+
                             <div class="content">
-                                {{.Description}}
+                                {{.Description | safeHTML | truncate 150}}
                             </div>
                         </div>
                         <footer class="card-footer">
-                            <a href="{{ .RelPermalink }}" class="card-footer-item">Mas Info...</a>
+                            <a href="{{.RelPermalink}}" class="card-footer-item">Consultar</a>
                         </footer>
                     </div>
+
+
+
+
+
+
                 </div>
-                {{- end}}
+                {{ end }}
             </div>
 
         </div>

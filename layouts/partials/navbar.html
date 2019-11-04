@@ -32,13 +32,13 @@
             </div>
             <div id="navbar-id" class="navbar-menu p-padding">
                 <div class="navbar-start">
-                    {{ range .Site.Params.navbar.menu }} {{ if ne .text "SERVICIOS" }}
+                    {{ range .Site.Params.navbar.menu }} {{ if ne .text "Servicios" }}
                     <a class="navbar-item" href="{{.link}}">
 
                         {{ .text }}
 
                     </a>
-                    {{ end}} {{ if eq .text "SERVICIOS" }}
+                    {{ end}} {{ if eq .text "Servicios" }}
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link is-arrowless" href="{{.link}}">
                             {{.text}}

@@ -1,5 +1,34 @@
 <section id="testimony">
     <div class="container">
+        <div class="bd-lead">
+            <div class="columns">
+                <div class="column is-8" data-aos="fade-down" data-aos-duration="700">
+                    <h1 class="title is-spaced">
+                        Testimonios
+                    </h1>
+                    <p clasS="subtitle">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita reprehenderit officia ut
+                        aliquid
+                        aspernatur quisquam suscipit debitis pariatur, blanditiis corporis facilis unde enim. Ullam
+                        placeat
+                        neque unde, beatae quidem veniam.
+                    </p>
+                </div>
+            </div>
+
+            <div class="columns  is-multiline" data-aos="fade-up" data-aos-duration="700">
+                {{- range .Site.Params.testimonies}}
+                <div class="column is-5 ">
+                    <iframe class="is-face-frame" src="{{.}}" width="500" scrolling="no" frameborder="0"
+                        allowTransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                {{- end}}
+            </div>
+
+        </div>
+
+    </div>
+    <!-- <div class="container">
         <div class="columns is-centered">
             <div class="column is-half is-center-text">
                 <div class="title">TESTIMONIOS</div>
@@ -29,7 +58,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 
 <!--  -->

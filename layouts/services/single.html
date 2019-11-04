@@ -1,3 +1,18 @@
 {{define "main"}}
-{{.Title }}
+
+<div class="container">
+    <div class="columns">
+
+
+        <div class="column">
+            <h2 class="title"> {{.Title }}</h2>
+            <span>
+                {{ .Content }}
+            </span>
+        </div>
+        <div class="column">
+            <img src="{{ relURL .Params.img }}" alt="">
+        </div>
+    </div>
+</div>
 {{end}}

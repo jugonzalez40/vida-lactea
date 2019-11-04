@@ -4,30 +4,30 @@
     "description": "",
     "custom_stylesheets": [],
     "custom_scripts": [],
+    "contact": {
+      "title": "Horario de Atención",
+      "range": "Lun - Sab 07:00 am - 08:00 pm",
+      "phone": " +57 310 294 65 71",
+      "mail": "juan@gmail.com"
+    },
     "navbar": {
       "logo": {
         "path": "images/logo.png",
         "alt": "ajsdasd"
       },
-      "time": {
-        "path": "images/clock.svg",
-        "alt": "ajsdasd"
-      },
       "menu": [{
         "link": "/#services",
-        "text": "SERVICIOS"
+        "text": "Servicios"
+      },{
+        "link": "/#testimony",
+        "text": "Testimonos"
       },{
         "link": "/#contact",
-        "text": "CONTACTENOS"
+        "text": "Contactenos"
       },{
         "link": "/blog",
-        "text": "BLOG"
-      }],
-      "schedule": {
-        "title": "Horario de Atención",
-        "range": "LUN - SAB 07:00 AM - 08:00 PM",
-        "phone": " +57 310 294 65 71"
-      }
+        "text": "Blog"
+      }]
     },
 
     "testimonies": [
