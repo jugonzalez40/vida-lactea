@@ -1,10 +1,15 @@
 {{define "main"}}
-    {{ $pages := .Site.RegularPages  }}
-    <ul>
-
+{{ $pages := .Site.RegularPages  }}
+<div class="container">
+  <div class="columns">
+    <div class="column">
+      <ul>
         {{ range where $pages "Section" "blog" }}
         <li>{{.Title}}</li>
         {{end}}
-    </ul>
-  {{ .Content }}
+      </ul>
+      {{ .Content }}
+    </div>
+  </div>
+</div>
 {{end}}

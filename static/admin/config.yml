@@ -18,3 +18,17 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", required: false, widget: "boolean", default: true}
       - {label: "Body", name: "body", widget: "markdown"}
+  
+  - name: "services" # Used in routes, e.g., /admin/collections/blog
+    label: "Servicios" # Used in the UI
+    folder: "content/services" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", required: false, widget: "boolean", default: true}
+      - {label: "Description", name: "description", required: false, widget: "string"}
+      - {label: "Image", name: "img", required: false, widget: "image" }
+      - {label: "Icon", name: "icon", required: false, widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
