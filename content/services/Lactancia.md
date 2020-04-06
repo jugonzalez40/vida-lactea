@@ -1,5 +1,5 @@
 ---
-title: Consulta de Lactancia Prenatal
+title: Consulta de Lactancia Básica
 date: 2019-09-10T02:15:06.000Z
 draft: true
 description: >-
