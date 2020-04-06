@@ -11,7 +11,7 @@ description: >-
   en casa, todo sobre el suministro, y manejo del preciado líquido y llega tan
   lejos como tú quieras.
 img: /icono-prenatal.png
-icon: ''
+icon: /consulta-prenatal.png
 ---
 Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta etapa te ayudará a cumplir tus metas de lactancia. Adquiere más herramientas para sobrepasar dificultades y sentirte segura y guiada en cada paso. 
 
