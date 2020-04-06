@@ -10,7 +10,7 @@ description: >-
   aún en el retorno al estudio o al trabajo. Aprende a hacer un banco de leche
   en casa, todo sobre el suministro, y manejo del preciado líquido y llega tan
   lejos como tú quieras.
-img: /s1.png
+img: /icono-prenatal.png
 icon: /consulta-prenatal.png
 ---
 Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta etapa te ayudará a cumplir tus metas de lactancia. Adquiere más herramientas para sobrepasar dificultades y sentirte segura y guiada en cada paso. 
