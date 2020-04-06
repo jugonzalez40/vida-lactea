@@ -1,9 +1,12 @@
 ---
-title: "Talleres Grupales"
-date: 2019-09-09T21:15:06-05:00
+title: 'Consulta de lactancia Avanzada, presencial o Domiciliaria '
+date: 2019-09-10T02:15:06.000Z
 draft: true
-description: Aprende junto a otras familias sobre lactancia, alimentación complementaria, banco de leche, destete respetuoso, una experiencia grupal guiada de la mano de expertos.
-img: images/plash2.webp,
+description: >-
+  Aprende junto a otras familias sobre lactancia, alimentación complementaria,
+  banco de leche, destete respetuoso, una experiencia grupal guiada de la mano
+  de expertos.
+img: 'images/plash2.webp,'
 icon: /images/s4.png
 ---
 
