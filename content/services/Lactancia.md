@@ -8,7 +8,7 @@ description: >-
   ten más probabilidades de una lactancia exitosa, conociendo la técnica,
   desmitificando creencias, aprendiendo cómo producir suficiente leche y cómo
   lactar sin dolor.
-img: 'images/plash.webp,'
+img: /consulta-prenatal.png
 icon: /icono-prenatal.png
 ---
 
