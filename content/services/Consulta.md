@@ -10,7 +10,7 @@ description: Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en est
   leche en casa, todo sobre el suministro, y manejo del preciado líquido y llega
   tan lejos como tú quieras.
 img: ""
-icon: /consulta-prenatal.png
+icon: /images/icono-prenatal.png
 ---
 Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta etapa te ayudará a cumplir tus metas de lactancia. Adquiere más herramientas para sobrepasar dificultades y sentirte segura y guiada en cada paso. 
 
