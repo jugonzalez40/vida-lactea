@@ -7,7 +7,7 @@ description: El embarazo es el mejor momento para que aprendas a amamantar. El
   herramientas, y ten más probabilidades de una lactancia exitosa, conociendo la
   técnica, desmitificando creencias, aprendiendo cómo producir suficiente leche
   y cómo lactar sin dolor.
-img: /images/se-rien-.jpg
+img: /images/consulta-básica.png
 icon: /images/consulta-básica-01.jpg
 ---
 
