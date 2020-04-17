@@ -1,20 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1440px" height="140px" viewBox="0 0 1440 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
-    <title>Group 6</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="138" y="0" width="1440" height="140"></rect>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="1.-Landing-page" transform="translate(0.000000, -2400.000000)">
-            <g id="Group-6" transform="translate(-138.000000, 2400.000000)">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <g id="Rectangle"></g>
-                <path d="M56.3238631,43.8158505 C120.885369,108.886755 199.724351,142.499711 390.925932,132.959263 C677.728302,118.648589 921.447111,-31.6905721 1236.27358,6.06263922 C1446.1579,31.2314468 1630.0667,86.6355101 1788,172.274829 L1788,882 L66.8743311,882 C-32.542033,882 -8.23764333,-21.2550539 56.3238631,43.8158505 Z" id="Path-5" fill="#F8F9FD" mask="url(#mask-2)"></path>
-            </g>
-        </g>
-    </g>
+<svg width="1440" height="148" viewBox="0 0 1440 148" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1441" height="148">
+<path d="M0.0343018 0.624877L1440.15 0.961731L1440.11 147.869L-6.0937e-05 147.532L0.0343018 0.624877Z" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1521.81 57.2296C1457.24 103.973 1175.07 162.405 928.499 117.711C741.997 83.905 647.015 3.51056 312.995 3.49901C29.0152 3.48919 -52.0603 109.173 -210.02 170.674L-210.14 680.661L1511.12 681.064C1610.55 681.087 1586.39 10.4868 1521.81 57.2296Z" fill="#CAF7FF"/>
+</g>
 </svg>

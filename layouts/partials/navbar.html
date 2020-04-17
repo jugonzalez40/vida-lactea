@@ -1,4 +1,6 @@
 {{ $pages := .Site.RegularPages }}
+{{ $instagram := $.Site.Params.instagram }}
+{{ $facebook := $.Site.Params.facebook }}
 <div class="nav-shell">
 
     <!-- <div class="top-banner">
@@ -52,18 +54,13 @@
                 </div>
                 <div class="navbar-end">
                     <div class="navbar-item">
-                        <a>
+                        <a href="{{$instagram}}" target="__blank">
                             <i class="fab fa-instagram icon-social"></i>
                         </a>
                     </div>
                     <div class="navbar-item">
-                        <a href="">
+                        <a href="{{$facebook}}" target="__blank">
                             <i class="fab fa-facebook-f icon-social"></i>
-                        </a>
-                    </div>
-                    <div class="navbar-item">
-                        <a href="">
-                            <i class="fab fa-twitter icon-social"></i>
                         </a>
                     </div>
                 </div>

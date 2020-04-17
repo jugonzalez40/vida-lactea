@@ -4,7 +4,7 @@
 <section class="hero" id="services">
     <div class="hero-body">
         <div class="container">
-            <div class="columns">
+            <div class="columns ">
                 <div class="column is-8" data-aos="fade-down" data-aos-duration="700">
                     <h1 class="title is-spaced">
                         Servicios
@@ -16,9 +16,9 @@
             </div>
 
             <!-- MAISDJ-->
-            <div class="columns">
+            <div class="columns is-multiline">
                 {{ range where $pages "Section" "services" }}
-                <div class="column is-3" data-aos="fade-left" data-aos-duration="700">
+                <div class="column is-6" data-aos="fade-left" data-aos-duration="700">
 
                     <div class="card">
                         <div class="card-content">
@@ -35,12 +35,17 @@
                             </div>
 
                             <div class="content">
-                                {{.Description | safeHTML | truncate 150}}
+                                <p>
+                                    {{.Description | safeHTML | truncate 300}}
+                                </p>
+                                
+                                
                             </div>
+                            <a href="{{.RelPermalink}}" class="btn-primary">Más Información</a>
                         </div>
-                        <footer class="card-footer">
+                        <!-- <footer class="card-footer">
                             <a href="{{.RelPermalink}}" class="card-footer-item">Consultar</a>
-                        </footer>
+                        </footer> -->
                     </div>
 
 

@@ -146,6 +146,7 @@ header {
     /* font-family: 'Nunito', sans-serif ; */
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .navbar .navbar-menu .navbar-start>.navbar-item {
@@ -176,10 +177,11 @@ a.navbar-item:hover,
 
 .divider {
     width: 100%;
+    margin-top: -80px;
 }
 
 #services {
-    background-color: #f8f9fd;
+    background-color: #CAF7FF;
     margin-top: -8px;
 }
 
@@ -388,57 +390,39 @@ textarea:hover {
 
 
 
+
 .v-button {
-    background-color: rgb(247, 249, 252);
-    border-color: transparent;
-    color: #192038;
-    padding: 0.6875rem 1.125rem;
-    border-style: solid;
-    border-width: 0.0625rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 180px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-style: none;
+    border-width: 2px;
+    border-color: #CAF7FF;
+    border-radius: 4px;
+    background-color: #CAF7FF;
+    font-family: 'Open Sans', sans-serif;
+    color: #187599;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: none;
     text-transform: uppercase;
-    border-radius: 0.25rem;
-    font-size: 0.875rem;
-    line-height: 1rem;
-    -webkit-transition-duration: .15s;
-    transition-duration: .15s;
-    -webkit-transition-property: background-color, border-color, color, -webkit-box-shadow;
-    transition-property: background-color, border-color, box-shadow, color, -webkit-box-shadow;
-    -webkit-transition-timing-function: ease-in;
-    transition-timing-function: ease-in;
-    font-weight: 600;
+    cursor: pointer;
+    max-width: 213px;
+    box-shadow: 0 0 0 0.375rem rgba(143, 155, 179, 0.16);
 }
 
 
-.v-button {
-    background-color: #ffaa00;
-    border-color: #ffaa00;
-    color: #ffffff;
-    padding: 0.6875rem 1.125rem;
-    border-style: solid;
-    border-width: 0.0625rem;
-    text-transform: uppercase;
-    border-radius: 0.25rem;
-    font-size: 0.875rem;
-    line-height: 1rem;
-    -webkit-transition-duration: .15s;
-    transition-duration: .15s;
-    -webkit-transition-property: background-color, border-color, color, -webkit-box-shadow;
-    transition-property: background-color, border-color, box-shadow, color, -webkit-box-shadow;
-    -webkit-transition-timing-function: ease-in;
-    transition-timing-function: ease-in;
-    cursor: pointer;
-    font-family: Open Sans, sans-serif;
-    font-weight: 700;
+.v-button:focus {
+    outline: none;
 }
 
 .v-button:hover {
-    background-color: #ffc94d;
-    border-color: #ffc94d;
-}
-
-.v-button:focus {
-    box-shadow: 0 0 0 0.375rem rgba(143, 155, 179, 0.16);
-    outline: none;
+    color: #187599;
 }
 
 
@@ -521,4 +505,75 @@ a.footer-text:hover {
     position: absolute;
     bottom: 20px;
     left: 20px;
+}   
+
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-r {
+    text-align: right;
+}
+
+.icon-b {
+    height: 100%;
+    display: inline-block;
+    padding: 16px 20px;
+    background-color: #187599;
+    color:#CAF7FF;
+    border-radius: 0.25rem 0 0 0.25rem ;
+    font-size: 24px;
+    
+}
+
+
+.text-b {
+    display: inline-block;
+    /* padding: 0.6875rem 1.125rem; */
+    height: 100%;
+    width: 100%;
+    padding: 16px 24px;
+    width: auto;
+}
+
+.bd-lead {
+    background: transparent;
+}
+
+.card {
+    height: 100%;
+    border-radius: 0.25rem;
+}
+
+
+.btn-primary {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 180px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-style: none;
+    border-width: 2px;
+    border-color: #CAF7FF;
+    border-radius: 4px;
+    background-color: #CAF7FF;
+    font-family: 'Open Sans', sans-serif;
+    color: #187599;
+    font-size: 16px;
+    padding: 15px;
+    width: 180px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: #187599;
 }

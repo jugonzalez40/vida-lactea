@@ -1,3 +1,4 @@
+{{ $whatsapp := $.Site.Params.whatsapp }}
 <section class="slidebar" id="home">
     <div class="container">
         <div class="bd-lead">
@@ -5,39 +6,23 @@
 
 
             <div class="columns is-vcentered">
-                <div class="column is-5" data-aos="fade-right" data-aos-duration="700">
-                    <div class="title"> Estamos Aquí Para Ayudarte</div>
-                    <br>
+                <div class="column is-4" data-aos="fade-right" data-aos-duration="700">
+                    <div class="title hero-title is-spaced"> Profesionales en lactancia materna</div>
                     <div class="subtitle">
-                        Brindamos servicios de orientación, asesoría, consejería, evaluación e intervención en los
-                        problemas
-                        de lactancia materna en todas sus etapas.
+                        Brindamos servicios de orientación, asesoría, consejería e intervención en los
+                        problemas de lactancia materna en todas sus etapas.
                     </div>
                     <div class="columns is-desktop">
-                        <div class="column is-6">
-
-
-                            <div class="field is-horizontal">
-                                <div class="field-body">
-                                    <div class="field is-expanded">
-                                        <div class="field has-addons">
-                                            <p class="control phone-control">
-                                                <a class="button is-static">
-                                                    +57
-                                                </a>
-                                            </p>
-                                            <p class="control is-expanded">
-                                                <input class="v-input" type="tel" placeholder="Tu numero de telefono">
-                                            </p>
-                                        </div>
-                                        <p class="help">Déjanos tu nuermo y te contactaremos</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="column is-4">
-                            <button class="v-button" type="button">Consultar</button>
+                        <div class="column">
+                            <a class="v-button" href="https://wa.me/{{$whatsapp}}" target="__blank">
+                                <span class="icon-b">
+                                    <i class="fab fa-whatsapp"></i>
+                                </span>
+                                <span class="text-b">
+                                    Consultar
+                                </span>
+                                
+                            </a>
                         </div>
 
                     </div>
@@ -48,7 +33,7 @@
 
                 </div>
 
-                <div class="column is-9" data-aos="fade-left" data-aos-duration="700">
+                <div class="column is-9 hero-r" data-aos="fade-left" data-aos-duration="700">
                     <img src="{{relURL "/images/B1.png"}}" alt="">
                 </div>
             </div>
