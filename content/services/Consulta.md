@@ -2,15 +2,14 @@
 title: Consulta Profesional de Lactancia Prenatal
 date: 2019-09-10T02:15:06.000Z
 draft: true
-description: >-
-  Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta etapa te
-  ayudará a cumplir tus metas de lactancia. Adquiere más herramientas para
-  sobrepasar dificultades y sentirte segura y guiada en cada paso. Asesoría para
-  retorno al trabajo,Sigue amamantando! Es posible seguir dando leche materna
-  aún en el retorno al estudio o al trabajo. Aprende a hacer un banco de leche
-  en casa, todo sobre el suministro, y manejo del preciado líquido y llega tan
-  lejos como tú quieras.
-img: /icono-prenatal.png
+description: Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta
+  etapa te ayudará a cumplir tus metas de lactancia. Adquiere más herramientas
+  para sobrepasar dificultades y sentirte segura y guiada en cada paso. Asesoría
+  para retorno al trabajo,Sigue amamantando! Es posible seguir dando leche
+  materna aún en el retorno al estudio o al trabajo. Aprende a hacer un banco de
+  leche en casa, todo sobre el suministro, y manejo del preciado líquido y llega
+  tan lejos como tú quieras.
+img: ""
 icon: /consulta-prenatal.png
 ---
 Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta etapa te ayudará a cumplir tus metas de lactancia. Adquiere más herramientas para sobrepasar dificultades y sentirte segura y guiada en cada paso. 
