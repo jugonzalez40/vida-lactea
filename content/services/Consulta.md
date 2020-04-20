@@ -12,16 +12,18 @@ description: Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en est
 img: /images/consulta-prenatal.png
 icon: /images/icono-prenatal.png
 ---
-Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta etapa te ayudará a cumplir tus metas de lactancia. Adquiere más herramientas para sobrepasar dificultades y sentirte segura y guiada en cada paso. 
+### Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta etapa te ayudará a cumplir tus metas de lactancia. Adquiere más herramientas para sobrepasar dificultades y sentirte segura y guiada en cada paso. 
 
-<!--\\\[if gte mso 9]><xml>
+
+
+<!--\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:RelyOnVML/>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -61,9 +63,9 @@ Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta etapa te ay
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -642,9 +644,9 @@ Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta etapa te ay
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 10]>
+<!--\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -671,17 +673,13 @@ Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta etapa te ay
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\[endif]-->
+<!\\\\[endif]-->
 
 <!--StartFragment-->
 
 **Tiempo 1.30 horas**
 
-
-
 **Contenido:**
-
-
 
 \-Derechos y deberes frente al parto y toma de decisiones informadas
 
@@ -708,8 +706,6 @@ Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta etapa te ay
 \-Riesgos de visitas durante el primer mes de vida
 
 \-Puericultura básica (cuidados de la piel, solterapia, cambio de pañal, limpieza del ombligo, baño, signos de alarma, técnica de extracción de gases, posicion antireflujo).
-
-
 
 **Valor:**
 
