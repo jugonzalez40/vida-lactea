@@ -9,19 +9,19 @@ description: Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en est
   materna aún en el retorno al estudio o al trabajo. Aprende a hacer un banco de
   leche en casa, todo sobre el suministro, y manejo del preciado líquido y llega
   tan lejos como tú quieras.
-img: ""
+img: /images/consulta-prenatal.png
 icon: /images/icono-prenatal.png
 ---
 Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta etapa te ayudará a cumplir tus metas de lactancia. Adquiere más herramientas para sobrepasar dificultades y sentirte segura y guiada en cada paso. 
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:RelyOnVML/>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -61,9 +61,9 @@ Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta etapa te ay
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -642,9 +642,9 @@ Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta etapa te ay
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -671,7 +671,7 @@ Nació tu bebé, quieres darle lo mejor. Tener apoyo y ayuda en esta etapa te ay
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -689,8 +689,6 @@ Contenido:
 
 \-Técnica de lactancia materna, agarre, posiciones, lactancia sin dolor
 
-
-
 \-Qué esperar en la primera semana de vida, conteo de pañales, lectura del indicador de orina
 
 \-Pérdida de peso fisiológica del recién nacido
@@ -707,6 +705,10 @@ Contenido:
 
 \-Puericultura básica (cuidados de la piel, solterapia, cambio de pañal, limpieza del ombligo, baño, signos de alarma, técnica de extracción de gases, posicion antireflujo).
 
+**Valor:**
 
+En consultorio: $150.000
+
+Domiciliaria: $220.000 
 
 <!--EndFragment-->
