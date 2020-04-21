@@ -35,6 +35,17 @@ $(() => {
         nav.classList.toggle('is-active');
     });
 
+    let tick = 0;
+    setInterval(() => {
+        const tock = tick === 1 ? 0 : 1;
+        $(`.imgh-${tock}`,).fadeOut(400, 'swing', () => {
+            $(`.imgh-${tick}`).fadeIn();
+            tick = tock;
+        });
+        
+        
+    }, 10000);
+
     // var selector = document.getElementById("phone-contact");
 
     // var im = new Inputmask("99-9999999");

@@ -1,31 +1,32 @@
 {{ $menuPages := .Site.Params.navbar.menu }}
 {{ $contactInfo := $.Site.Params.contact }}
+{{ $instagram := $.Site.Params.instagram }}
+{{ $facebook := $.Site.Params.facebook }}
 <footer class="footer">
   <div class="container">
     <div class="columns">
       <!-- TITULO y REDES -->
       <div class="column">
         <h2 class="footer-title title is-3">Vida Láctea</h2>
-        <p class="footer-text"> Vida láctea, hace reconocimiento a esta historia, ya no solo es una "vía", sino toda una
-          "Vida"</p>
+        <p class="footer-text"> Para Vida Láctea cada mamá más que una paciente es parte de nuestra familia.</p>
         <br>
         <div class="columns is-mobile">
           <div class="column is-1">
-            <a href="">
+            <a href="{{$instagram}}" target="__blank">
               <i class="fab fa-instagram icon-social-f"></i>
             </a>
           </div>
           <div class="column is-1">
-            <a href="">
+            <a href="{{$facebook}}" target="__blank">
               <i class="fab fa-facebook-f icon-social-f"></i>
             </a>
           </div>
-          <div class="column is-1">
+          <!-- <div class="column is-1">
             <a href="">
               <i class="fab fa-twitter icon-social-f"></i>
             </a>
 
-          </div>
+          </div> -->
         </div>
       </div>
       <!-- ENLACES -->
