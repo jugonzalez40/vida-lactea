@@ -28,66 +28,12 @@ body {
     text-justify: inter-word;
 }
 
-header {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
+
 
 .slidebar {
     height: 100%;
 }
 
-/* .top-banner {
-    background-color: #187599;
-    color: #fafafa;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    height: 24px;
-    z-index: 9;
-} */
-
-/* .slide-item {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-    height: 700px;
-    width: 100%;
-}
-
-.item-2 {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.50) 0%, rgba(158, 158, 158, 0.24) 100%), url('../images/plash.webp');
-}
-
-.item-1 {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.50) 0%, rgba(158, 158, 158, 0.24) 100%), url('../images/plush.webp');    
-}
-
-.grad {
-    background-image: url('../images/point.png');
-    width: 100%;
-    height: 100%;
-}
-
-.slider-container {
-    height: 100%;
-    color: white;
-}
-
-.slider-container .title,
-.slider-container .subtitle {
-    color: white;
-}
-
-.slider-container .text {
-    font-size: 24px;
-} */
-/* 
-.read-slider {
-    color: white;
-    background-color: rgba(0, 0, 0, .6);
-    text-transform: uppercase;
-} */
 
 .logo-container img,
 .time-container img {
@@ -96,15 +42,6 @@ header {
     margin-right: auto;
 }
 
-
-/* .column {
-    border: 0.5px solid black;
-}
-
-.columns {
-    border: 1px solid red;
-} 
- */
 
 .columns.is-vcentered {
     -webkit-box-align: center;
@@ -206,6 +143,7 @@ a.navbar-item:hover,
 
 .navbar.down {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
 }
 
 .title-divider {
@@ -509,6 +447,7 @@ a.footer-text:hover {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
 }
 
 .hero-r {
@@ -607,3 +546,16 @@ a.footer-text:hover {
 }
  
 
+.service-container {
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+
+.single-service-title {
+    margin-top: 2rem;
+}
+
+.single-service-content * {
+    text-align: justify;
+}

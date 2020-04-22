@@ -2,22 +2,8 @@
 {{ $instagram := $.Site.Params.instagram }}
 {{ $facebook := $.Site.Params.facebook }}
 <div class="nav-shell">
-
-    <!-- <div class="top-banner">
-        <div class="container">
-            {{with .Site.Params.navbar.schedule }}
-            <i class="fab fa-whatsapp"></i>
-            <span class="item-banner">
-                {{.phone}}
-            </span>
-            <i class="far fa-calendar-alt icon-banner"></i>
-            <span class="item-banner">
-                {{.range}}
-            </span> {{- end}}
-        </div>
-    </div> -->
-
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" data-aos-duration="700" data-aos="fade-down">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" data-aos-duration="700"
+        data-aos="fade-down">
         <div class="container">
             <div class="navbar-brand">
                 <a class="navbar-item" href="/">
@@ -34,23 +20,11 @@
             </div>
             <div id="navbar-id" class="navbar-menu p-padding">
                 <div class="navbar-start">
-                    {{ range .Site.Params.navbar.menu }} {{ if ne .text "Servicios" }}
+                    {{ range .Site.Params.navbar.menu }}
                     <a class="navbar-item" href="{{.link}}">
-
                         {{ .text }}
-
                     </a>
-                    {{ end}} {{ if eq .text "Servicios" }}
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link is-arrowless" href="{{.link}}">
-                            {{.text}}
-                        </a>
-                        <div class="navbar-dropdown">
-                            {{ range where $pages "Section" "services" }}
-                            <a class="navbar-item" href="{{ .RelPermalink }}">{{ .Title }}</a> {{ end}}
-                        </div>
-                    </div>
-                    {{ end }} {{ end}}
+                    {{ end}}
                 </div>
                 <div class="navbar-end">
                     <div class="navbar-item">
@@ -66,7 +40,6 @@
                 </div>
             </div>
         </div>
-
         <div class="right-side">
 
         </div>
